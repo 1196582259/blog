@@ -28,5 +28,4 @@ jobs:
             git pull
             npm install
             npm run build
-            systemctl restart nginx
-            systemctl restart php-fpm8
+            npm run start
